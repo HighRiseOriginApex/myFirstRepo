@@ -28,3 +28,6 @@
     git log --since="2024-01-01"
     git log --until="2024-01-01"
     git log --author "username"
+
+11) git branch branch_name
+    git checkout branch_name - to change the current branch
