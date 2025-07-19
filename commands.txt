@@ -1,0 +1,13 @@
+1) git config --global user.name "sai kumar"
+   git config --global user.email "user@gmail.com"
+   git config --list
+
+2) git init - initialize an empty git repository
+
+3) git status
+
+4) git add file_name - adds a new file to stage
+   git reset file_name - removes the file from the stage
+   git diff --cached - list of files that are staged
+
+5) git commit file_name -m "message"
