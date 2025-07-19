@@ -11,3 +11,5 @@
    git diff --cached - list of files that are staged
 
 5) git commit file_name -m "message"
+
+6) git show commit_file_id:file_name
