@@ -28,3 +28,7 @@
     git log --since="2024-01-01"
     git log --until="2024-01-01"
     git log --author "username"
+
+11) git branch
+    git checkout branch_name
+    git merge branch_name
