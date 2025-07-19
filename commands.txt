@@ -7,8 +7,9 @@
 3) git status
 
 4) git add file_name - adds a new file to stage
-   git reset file_name - removes the file from the stage
+   git reset --staged file_name - removes the file from the stage
    git diff --cached - list of files that are staged
+   git restore file_name - deletes all the changes made to update to the head. Doesn't work if staged
 
 5) git commit file_name -m "message"
 
@@ -16,3 +17,14 @@
 
 7) git checkout commit_id -- filename/*
    git checkout master -- *
+
+8) git restore --worktree file_name - Made few changes that you are certain to commit and then add to stage. Later added some more changes after
+   staging but want to remove all of them.
+
+9) git reset --hard HEAD^ (removes the changes from your local as well)
+   git reset --soft HEAD^ (removes the changes from local repo but not from stage)
+
+10) git log -S "text" - searches for all commits which includes adding ot deleting the text
+    git log --since="2024-01-01"
+    git log --until="2024-01-01"
+    git log --author "username"
