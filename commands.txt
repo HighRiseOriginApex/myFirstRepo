@@ -24,7 +24,11 @@
 9) git reset --hard HEAD^ (removes the changes from your local as well)
    git reset --soft HEAD^ (removes the changes from local repo but not from stage)
 
-10) git log -S "text" - searches for all commits which includes adding ot deleting the text
+10) git log -S "text" - searches for all commits which includes adding to deleting the text
     git log --since="2024-01-01"
     git log --until="2024-01-01"
     git log --author "username"
+
+11) git branch
+    git checkout branch_name
+    git merge branch_name
